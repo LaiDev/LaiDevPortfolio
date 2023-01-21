@@ -173,3 +173,14 @@ font-size: 1.2rem;
   display: flex;
   gap: 20px;
 }
+
+#sectionC
+{
+  margin-top: 150px;
+}
+
+#sectionC p
+{
+  font-size: 1.2rem;
+  margin-bottom: 15px
+}
