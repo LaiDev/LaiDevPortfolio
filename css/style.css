@@ -148,7 +148,7 @@ h2 {
     brightness(116%) contrast(100%);
 }
 
-.icons img:hover {
+.icons img:hover, .projectLinks ul a li img:hover, #sectionC a img:hover {
   filter: invert(79%) sepia(24%) saturate(628%) hue-rotate(202deg)
     brightness(101%) contrast(103%);
 }
