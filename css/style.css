@@ -191,15 +191,34 @@ h3 {
   background-color: #1e1e1e;
   box-shadow: -4px 10px 5px 0px rgba(255, 255, 255, 0.411);
   width: 80vw;
+
   padding: 10px;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   gap: 20px;
 }
 
-.card > img {
+.cardImg {
+  height: 300px;
   width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   border-radius: 8px;
+}
+
+.card p {
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+#projecect1 {
+  background-image: url("../img/GeDesktop.png");
+}
+
+#project2 {
+  background-image: url("../img//desktopPortfolio.png");
 }
 
 .card p {
@@ -229,20 +248,17 @@ h3 {
 }
 
 @media screen and (min-width: 500px) {
-
   #sectionA {
     align-items: center;
     text-align: center;
-    justify-content: center
-
+    justify-content: center;
   }
 
-  #sectionA .top
-  {
+  #sectionA .top {
     display: flex;
     flex-direction: column;
     align-content: center;
-   justify-content: flex-end;
+    justify-content: flex-end;
     margin-top: 0;
   }
 
@@ -253,6 +269,11 @@ h3 {
   #sectionA button {
     padding: 15px 50px;
   }
+
+  .card p {
+    font-size: 1.5rem;
+  }
+
 }
 
 @media screen and (min-width: 1025px) {
@@ -263,10 +284,7 @@ h3 {
     font-size: 3rem;
   }
 
-
-
   #sectionA button {
-  
     padding: 15px 150px;
   }
 
@@ -282,9 +300,6 @@ h3 {
     width: 50vw;
   }
 
-  .card p {
-    font-size: 1.5rem;
-  }
 
   .techUsed ul {
     width: 50%;
