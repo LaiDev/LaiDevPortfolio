@@ -131,7 +131,7 @@ nav ul {
   gap: 80px;
 
   padding: 0 0 150px;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .top {
