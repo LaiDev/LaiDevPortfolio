@@ -45,8 +45,19 @@ nav ul,
   justify-content: center;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100vw;
+}
+
 .wrapper {
   padding: 20px 20px 100px 20px;
+  max-width: 1920px;
+
+  width: 100%;
 }
 
 button {
@@ -70,6 +81,7 @@ button a {
   flex-direction: row;
   justify-content: space-between;
 
+  width: 100%;
   font-size: 1.5rem;
 }
 
@@ -148,7 +160,9 @@ h2 {
     brightness(116%) contrast(100%);
 }
 
-.icons img:hover, .projectLinks ul a li img:hover, #sectionC a img:hover {
+.icons img:hover,
+.projectLinks ul a li img:hover,
+#sectionC a img:hover {
   filter: invert(79%) sepia(24%) saturate(628%) hue-rotate(202deg)
     brightness(101%) contrast(103%);
 }
@@ -216,20 +230,69 @@ h3 {
 }
 
 @media screen and (min-width: 500px) {
-  #sectionA
-  {
+
+  #sectionA {
     align-items: center;
     text-align: center;
     justify-content: center;
+   
   }
 
-  .icons
-  {
+  .icons {
     justify-content: center;
   }
 
-  #sectionA button 
-  {
+  #sectionA button {
     padding: 15px 50px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+
+
+
+  #sectionA button {
+  
+    padding: 15px 150px;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .portfolioCards {
+    flex-direction: row;
+  }
+
+  .card {
+    width: 50vw;
+  }
+
+  .card p {
+    font-size: 1.5rem;
+  }
+
+  .techUsed ul {
+    width: 50%;
+  }
+
+  #sectionC p {
+    font-size: 1.5rem;
+  }
+
+  #sectionC a img {
+    height: 50px;
+  }
+
+  #bottomBar ul {
+    width: 80vw;
+    justify-content: center;
+    font-size: 1.5rem;
   }
 }
