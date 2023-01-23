@@ -235,7 +235,15 @@ h3 {
     align-items: center;
     text-align: center;
     justify-content: center;
-   
+   gap: 10px;
+  }
+
+  #sectionA .top
+  {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
   }
 
   .icons {
