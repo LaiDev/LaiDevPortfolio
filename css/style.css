@@ -233,7 +233,7 @@ h3 {
   #sectionA {
     align-items: center;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
    gap: 10px;
   }
 
@@ -242,7 +242,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-content: center;
-    justify-content: space-evenly;
+   justify-content: flex-end;
     margin-top: 0;
   }
 
