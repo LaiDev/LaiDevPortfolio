@@ -214,3 +214,22 @@ h3 {
   font-size: 1.2rem;
   margin-bottom: 15px;
 }
+
+@media screen and (min-width: 500px) {
+  #sectionA
+  {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .icons
+  {
+    justify-content: center;
+  }
+
+  #sectionA button 
+  {
+    padding: 15px 50px;
+  }
+}
