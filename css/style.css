@@ -233,8 +233,8 @@ h3 {
   #sectionA {
     align-items: center;
     text-align: center;
-    justify-content: space-evenly;
-   gap: 10px;
+    justify-content: space-around;
+
   }
 
   #sectionA .top
