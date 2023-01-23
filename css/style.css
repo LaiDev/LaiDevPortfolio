@@ -242,7 +242,10 @@ h3 {
   margin-top: 150px;
 }
 
-
+#sectionC p {
+  font-size: 1.2rem;
+  margin-bottom: 10px
+}
 
 @media screen and (min-width: 500px) {
   #sectionA {
@@ -276,7 +279,6 @@ h3 {
     font-size: 1.5rem;
     margin-bottom: 15px;
   }
-
 }
 
 @media screen and (min-width: 1025px) {
@@ -302,7 +304,6 @@ h3 {
   .card {
     width: 50vw;
   }
-
 
   .techUsed ul {
     width: 50%;
