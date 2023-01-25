@@ -221,6 +221,10 @@ h3 {
   background-image: url("../img//desktopPortfolio.png");
 }
 
+#project3 {
+  background-image: url("../img/bensBakery.png");
+}
+
 .card p {
   font-size: 1.2rem;
 }
