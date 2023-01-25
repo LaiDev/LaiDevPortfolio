@@ -145,7 +145,7 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
-  margin: 50px 0px 55px;
+
 }
 
 .icons {
@@ -256,15 +256,13 @@ h3 {
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin-top: -100px;
   }
 
   #sectionA .top {
     display: flex;
     flex-direction: column;
     align-content: center;
-    justify-content: flex-end;
-    margin-top: 0;
+
   }
 
   .icons {
