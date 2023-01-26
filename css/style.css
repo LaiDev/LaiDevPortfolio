@@ -145,7 +145,7 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
-
+  margin: 50px 0px 55px;
 }
 
 .icons {
@@ -184,13 +184,16 @@ h3 {
 
 .portfolioCards {
   gap: 50px;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
   border-radius: 8px;
   background-color: #1e1e1e;
   box-shadow: -4px 10px 5px 0px rgba(255, 255, 255, 0.411);
-  width: 80vw;
+  width: 80%;
 
   padding: 10px;
   display: flex;
@@ -210,9 +213,13 @@ h3 {
 
 .card p {
   height: 70px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
+.card li,
+.card p {
+  font-size: 1.2rem;
+}
 #projecect1 {
   background-image: url("../img/GeDesktop.png");
 }
@@ -225,13 +232,9 @@ h3 {
   background-image: url("../img/bensBakery.png");
 }
 
-.card p {
-  font-size: 1.2rem;
-}
-
 .techUsed ul {
   display: flex;
-  width: 90%;
+  width: 100%;
 
   font-size: 1.2rem;
   justify-content: space-between;
@@ -247,7 +250,7 @@ h3 {
 }
 
 #sectionC p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-bottom: 10px;
 }
 
@@ -256,13 +259,15 @@ h3 {
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin-top: -100px;
   }
 
   #sectionA .top {
     display: flex;
     flex-direction: column;
     align-content: center;
-
+    justify-content: flex-end;
+    margin-top: 0;
   }
 
   .icons {
@@ -273,7 +278,8 @@ h3 {
     padding: 15px 50px;
   }
 
-  .card p {
+  .card p,
+  .card li {
     font-size: 1.5rem;
   }
 
@@ -308,11 +314,16 @@ h3 {
   }
 
   .card {
-    width: 50vw;
+    width: 45%;
+  }
+
+  .card p {
+    font-size: 1.7rem;
+    margin-bottom: 30px;
   }
 
   .techUsed ul {
-    width: 50%;
+    width: 80%;
   }
 
   #sectionC p {
