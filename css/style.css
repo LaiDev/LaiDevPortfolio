@@ -127,17 +127,11 @@ nav ul {
 
 #sectionA {
   height: 100vh;
-  align-items: flex-start;
-  gap: 80px;
-
-  padding: 0 0 150px;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  
 }
 
-.top {
-  margin-top: 70px;
-  height: 45%;
-}
 
 h1 {
   font-size: 3.5rem;
