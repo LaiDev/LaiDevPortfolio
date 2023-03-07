@@ -154,6 +154,7 @@ h2 {
 .icons img {
   filter: invert(98%) sepia(11%) saturate(229%) hue-rotate(202deg)
     brightness(116%) contrast(100%);
+    height: 34px;
 }
 
 .icons img:hover,
